@@ -97,10 +97,10 @@
 	var darkComponents=document.querySelectorAll("h2, h1, h3, label, button")
 	darkMode.addEventListener("click", changecol)
 	function changecol ()
-		{ if(document.querySelector("html").style.backgroundImage=='url("images/darkfond.jpg")') {document.querySelector("html").style.backgroundImage='url("images/fond.jpg")'; document.getElementById("darkMode").innerHTML=("Dark mode");for(var i=0; i<darkComponents.length; i++) {darkComponents[i].classList.remove("dark");document.querySelector("html").style.backgroundColor="white"
+		{ if(document.querySelector("html").style.backgroundImage=='url("Images/darkfond.jpg")') {document.querySelector("html").style.backgroundImage='url("images/fond.jpg")'; document.getElementById("darkMode").innerHTML=("Dark mode");for(var i=0; i<darkComponents.length; i++) {darkComponents[i].classList.remove("dark");document.querySelector("html").style.backgroundColor="white"
     
     }} 
-		else{document.querySelector("html").style.backgroundImage='url("images/darkfond.jpg")'; document.getElementById("darkMode").innerHTML=("Light mode"); for(var i=0; i<darkComponents.length; i++) {darkComponents[i].classList.add("dark");  document.querySelector("html").style.backgroundColor="black"
+		else{document.querySelector("html").style.backgroundImage='url("Images/darkfond.jpg")'; document.getElementById("darkMode").innerHTML=("Light mode"); for(var i=0; i<darkComponents.length; i++) {darkComponents[i].classList.add("dark");  document.querySelector("html").style.backgroundColor="black"
     } }}
 
 france.addEventListener("click", function()
