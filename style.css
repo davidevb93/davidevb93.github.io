@@ -41,7 +41,8 @@ a:hover
 	}
 
 html{
-background-image:url("Images/fond.jpg");
+background:url("Images/fond.jpg");
+background-size: cover;
 	
 
 }	
