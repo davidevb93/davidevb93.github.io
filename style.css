@@ -41,7 +41,8 @@ a:hover
 	}
 
 html{
-background-image:url("Images/fond.jpg") fixed no-repeat right cover;
+background-image:url("Images/fond.jpg");
+	
 
 }	
 
